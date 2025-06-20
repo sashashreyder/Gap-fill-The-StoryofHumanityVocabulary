@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gap-fill | The Story of Humanity</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- video-background -->
+  <video id="bg-video" autoplay muted loop playsinline preload="auto">
+    <source src="bg.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <div class="card">
+    <h1>Gap-fill: The Story of Humanity Vocabulary</h1>
+
+    <p class="instructions">
+      Type the missing vocabulary in each blank. Hover the <strong>?</strong> to see a hint, then click
+      <em>Check&nbsp;your&nbsp;score</em> to see how you did.
+    </p>
+
+    <p>
+      Throughout history, <em>ancient civilizations</em> relied on social
+      <span class="blank" data-answer="cohesion">
+        <input type="text" />
+        <span class="tooltip">?</span>
+        <span class="tipbox">unity within a group</span>
+      </span>
+      to thrive. Powerful
+      <span class="blank" data-answer="elites">
+        <input type="text" />
+        <span class="tooltip">?</span>
+        <span class="tipbox">a powerful minority in society</span>
+      </span>
+      ruled vast
+      <span class="blank" data-answer="empires">
+        <input type="text" />
+        <span class="tooltip">?</span>
+        <span class="tipbox">groups of nations under one authority</span>
+      </span>
+      that expanded by
+      <span class="blank" data-answer="conquering">
+        <input type="text" />
+        <span class="tooltip">?</span>
+        <span class="tipbox">taking control by force</span>
+      </span>
+      new lands. Inside these states, rigid social
+      <span class="blank" data-answer="hierarchies">
+        <input type="text" />
+        <span class="tooltip">?</span>
+        <span class="tipbox">ranked social groups</span>
+      </span>
+      created deep
+      <span class="blank" data-answer="stratification">
+        <input type="text" />
+        <span class="tooltip">?</span>
+        <span class="tipbox">division into classes</span>
+      </span>.
+      Traditions were
+      <span class="blank" data-answer="passed down">
+        <input type="text" />
+        <span class="tooltip">?</span>
+        <span class="tipbox">transferred to future generations</span>
+      </span>
+      and knowledge was
+      <span class="blank" data-answer="transmitted">
+        <input type="text" />
+        <span class="tooltip">?</span>
+        <span class="tipbox">passed on along routes</span>
+      </span>
+      across trade networks. Over centuries, societies became more
+      <span class="blank" data-answer="civilized">
+        <input type="text" />
+        <span class="tooltip">?</span>
+        <span class="tipbox">having advanced social systems</span>
+      </span>
+      and gradually abandoned
+      <span class="blank" data-answer="barbaric">
+        <input type="text" />
+        <span class="tooltip">?</span>
+        <span class="tipbox">extremely cruel or uncivilized</span>
+      </span>
+      practices.
+    </p>
+
+    <button id="check">Check your score</button>
+  </div>
+
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <h2>📝 Your Results</h2>
+      <p id="modal-text"></p>
+      <button id="close-modal">Close</button>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
+
+
